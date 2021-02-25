@@ -39,8 +39,8 @@ body {
 /* middle 1 */
 .middle-1 .col-4:first-child .rotate,
 .middle-1 .col-4:nth-child(2) .rotate {
-  top: 13px;
-  left: -12px;
+  top: 0px;
+  left: -4px;
 }
 
 /* middle 2 et 3 */
@@ -49,21 +49,21 @@ body {
 .middle-3 .col-4:first-child .rotate,
 .middle-3 .col-4:nth-child(2) .rotate,
 .middle-3 .col-4:nth-child(3) .rotate {
-  top: 13px;
-  left: -9px;
+  top: 0px;
+  left: 0px;
 }
 
 /* middle 4 */
 .middle-4 .col-4:first-child .rotate,
 .middle-4 .col-4:nth-child(2) .rotate {
-  top: 9px;
+  top: 0px;
   left: 0px;
 }
 
 /****
 * RESPONSIVE 
 */
-
+/*tablet*/
 @media all and (max-width: 991px) {
   /* right */
   .column-right-top {
@@ -76,6 +76,30 @@ body {
 
   .price {
     text-align: center;
+  }
+  /* some modifications*/
+  .font-70 {
+    font-size: 30px;
+  }
+
+  .top-15 {
+    top: 0px;
+  }
+
+  .font-50 .top-15 {
+    font-size: 30px !important;
+  }
+
+  .font-40 {
+    font-size: 20px;
+  }
+
+  .p-49 {
+    padding: 26px 0px 26px 0px;
+  }
+
+  .font-55 {
+    font-size: 25px;
   }
 }
 
