@@ -6,13 +6,16 @@
         <!-- bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
-       <!-- my styles -->
+       <!-- my general font, etc. -->
         <link rel="stylesheet" href="style.css">
+        <!-- page styles -->
+        <link rel="stylesheet" href="mystyles.css">
     </head>
     <body>
         <!-- container -->
         <div class="container-fluid">
             <div class="row flex-column-reverse flex-md-row">
+                <!-- column left : prices -->
                 <div class="col-sm-12 col-md-5 col-lg-3 column-left scroll">
                     <table class="table table-striped table-hover">
                         <thead>
@@ -80,11 +83,33 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col column-right b-blue">
+                <!-- column right : calculate -->
+                <div class="col column-right ml-2">
                     <div class="row">
-                        <div class="col-5 b-orange"></div>
-                        <div class="col-3 b-orange"></div>
-                        <div class="col-3 b-orange"></div>
+                        <!-- top -->
+                        <div class="col-12 column-right-top pl-4 pr-4">
+                            <div class="row">
+                                <div class="col-10">
+                                    <div class="row font-19 bold">
+                                        <div class="time pr-2 text-warning">10:10:16</div>
+                                        <div class="pr-3 text-warning">19/02/21</div>
+                                        <div class="text-info">7</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4 p-0">
+                                            <div class="font-45 pl-3 position-relative text-success bold" style="top:-5px;">98,40 &euro;</div>
+                                        </div>
+                                        <div class="col-7 position-relative" style="top:-5px;">
+                                            <div class="font-18 text-danger bold">7-10-813-10226</div>
+                                            <div class="pl-5 font-14 c-orange">8,90/1_8,01/10_7,57/20 |10</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2 right font-70 position-relative text-warning" style="top:-5px;">0</div>
+                            </div>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-3"></div>
                     </div>
                 </div>
             </div>
