@@ -37,6 +37,9 @@
 .top-5 {
   top: -5px;
 }
+.top-15 {
+  top: 15px;
+}
 
 /* radius */
 /* .radius-5 {
@@ -104,6 +107,9 @@
 
 .scroll {
   overflow: scroll !important;
+}
+.hidden {
+  overflow: hidden !important;
 }
 
 /* text-align */
