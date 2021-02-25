@@ -7,7 +7,6 @@ body {
 /* left */
 .column-left {
   border: 4px solid black;
-  border-radius: 10px;
 }
 
 .produit {
@@ -22,7 +21,6 @@ body {
 /* right */
 .column-right-top {
   border: 5px solid red;
-  border-radius: 10px;
   max-height: 95px;
   background: black;
 }
@@ -34,6 +32,37 @@ body {
 .price {
   text-align: left;
 }
+
+/***
+* CALCULATE
+*/
+/* middle 1 */
+.middle-1 .col-4:first-child .rotate,
+.middle-1 .col-4:nth-child(2) .rotate {
+  top: 13px;
+  left: -12px;
+}
+
+/* middle 2 et 3 */
+.middle-2 .col-4:first-child .rotate,
+.middle-2 .col-4:nth-child(2) .rotate,
+.middle-3 .col-4:first-child .rotate,
+.middle-3 .col-4:nth-child(2) .rotate,
+.middle-3 .col-4:nth-child(3) .rotate {
+  top: 13px;
+  left: -9px;
+}
+
+/* middle 4 */
+.middle-4 .col-4:first-child .rotate,
+.middle-4 .col-4:nth-child(2) .rotate {
+  top: 9px;
+  left: 0px;
+}
+
+/****
+* RESPONSIVE 
+*/
 
 @media all and (max-width: 991px) {
   /* right */
