@@ -7,11 +7,11 @@ body {
 /* left */
 .column-left {
   border: 4px solid black;
-  display: block;
+  display: block !important;
 }
 
 .column-left-responsive {
-  display: none;
+  display: none !important;
 }
 
 .produit {
@@ -76,11 +76,11 @@ body {
   }
 
   .column-left {
-    display: none;
+    display: none !important;
   }
 
   .column-left-responsive {
-    display: block;
+    display: block !important;
   }
 
   .zero {
