@@ -26,3 +26,26 @@ body {
   max-height: 95px;
   background: black;
 }
+
+.zero {
+  text-align: right;
+}
+
+.price {
+  text-align: left;
+}
+
+@media all and (max-width: 991px) {
+  /* right */
+  .column-right-top {
+    max-height: 100%;
+  }
+
+  .zero {
+    text-align: left;
+  }
+
+  .price {
+    text-align: center;
+  }
+}

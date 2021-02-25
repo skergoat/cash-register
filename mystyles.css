@@ -25,6 +25,11 @@
   font-weight: bold !important;
 }
 
+/* position */
+.top-5 {
+  top: -5px;
+}
+
 /* colors */
 .c-black {
   color: black !important;
