@@ -10,6 +10,10 @@ body {
   display: block;
 }
 
+.column-left-responsive {
+  display: none;
+}
+
 .produit {
   width: 110px;
   overflow: hidden !important;
@@ -26,10 +30,6 @@ body {
   background: black;
 }
 
-.column-left-responsive {
-  display: none;
-}
-
 .zero {
   text-align: right;
 }
@@ -44,8 +44,8 @@ body {
 /* middle 1 */
 .middle-1 .col-4:first-child .rotate,
 .middle-1 .col-4:nth-child(2) .rotate {
-  top: 0px;
-  left: -4px;
+  top: 12px;
+  left: -9px;
 }
 
 /* middle 2 et 3 */
@@ -54,15 +54,15 @@ body {
 .middle-3 .col-4:first-child .rotate,
 .middle-3 .col-4:nth-child(2) .rotate,
 .middle-3 .col-4:nth-child(3) .rotate {
-  top: 0px;
-  left: 0px;
+  top: 12px;
+  left: -7px;
 }
 
 /* middle 4 */
 .middle-4 .col-4:first-child .rotate,
 .middle-4 .col-4:nth-child(2) .rotate {
   top: 0px;
-  left: 0px;
+  left: -5px;
 }
 
 /****
@@ -114,6 +114,33 @@ body {
 
   .font-55 {
     font-size: 25px;
+  }
+
+  /***
+* CALCULATE
+*/
+  /* middle 1 */
+  .middle-1 .col-4:first-child .rotate,
+  .middle-1 .col-4:nth-child(2) .rotate {
+    top: 2px;
+    left: 0px;
+  }
+
+  /* middle 2 et 3 */
+  .middle-2 .col-4:first-child .rotate,
+  .middle-2 .col-4:nth-child(2) .rotate,
+  .middle-3 .col-4:first-child .rotate,
+  .middle-3 .col-4:nth-child(2) .rotate,
+  .middle-3 .col-4:nth-child(3) .rotate {
+    top: 2px;
+    left: 0px;
+  }
+
+  /* middle 4 */
+  .middle-4 .col-4:first-child .rotate,
+  .middle-4 .col-4:nth-child(2) .rotate {
+    top: 0px;
+    left: 0px;
   }
 }
 
